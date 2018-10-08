@@ -1,1 +1,88 @@
+body {
+  font-size: 16px;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;	
+}
+
+/** HEADER **/
+.container {
+	margin-left: 10px;
+}
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.navbar-brand h1 { /* "Food, LLC" */
+  color: black;
+  font-size: 1.5em;
+  text-align: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#Page_Title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
+  padding: 5px 0px 10px 0px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.dummy_text {
+  height: 1000px;
+  background-color: grey;
+  padding: 0px 10px 10px 10px;
+  margin-top: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+/*  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+*/  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+
+
+
+
 
