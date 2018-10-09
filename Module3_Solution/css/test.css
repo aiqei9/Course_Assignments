@@ -1,0 +1,65 @@
+/************* Base Style *************/
+* {
+  font-family:cursive;
+}
+
+/** Header **/
+#header-nav {
+  background-color: #B7E49C;
+}
+
+.navbar-brand h2{
+  font-family:cursive;
+  color:black;
+  font-weight:bold;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list {
+  margin-top: 5px;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background: #7FC5E8;
+}
+
+#nav-list a span {
+  font-size: 2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+button:hover {
+  background: #7FC5E8;
+}
+
+/** body **/
+h1 {
+  font-weight: bold;
+  font-size:230%;
+  color:#278761;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  color: #067097;
+}
+
+p{
+  color:#17744A;
+}
+
+.row {
+    background-color: #F3DC87;
+}
